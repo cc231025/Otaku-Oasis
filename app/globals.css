@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+
+}
+
+body {
+    background-color: #0E0E0E;
+    color: #A8A8A8;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #1C1C1C;
+    border-radius: 5px;
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #A8A8A8;
+    border-radius: 5px;
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #312342;
+}
+
+
+
+.embla {
+    overflow: hidden;
+}
+
+.embla__container {
+    display: flex;
+}
+
+.embla__slide {
+    flex: 0 0 100%;
+    min-width: 0;
+}
+
+input[type="checkbox"] {
+    /*width: 20px; !* Specify the width *!*/
+    /*height: 20px; !* Specify the height *!*/
+    background-color: green; /* Change the background color */
+    border-radius: 5px; /* Add border radius */
+}
+
+input[type="checkbox"]:checked {
+    background-color: red; /* Change the background color when checked */
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+
+.overlay::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+#slider:hover path {
+    stroke: #592D96
+}
