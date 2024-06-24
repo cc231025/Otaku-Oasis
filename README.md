@@ -16,13 +16,13 @@ It essentially a user-friendly MyAnimeList Clone with minimized functionality, b
 Anime Data is fetched using the external Jikan API https://jikan.moe/ and supabase is used as a Database.
 
 # Functionality
-Users can Create an Account, Log in and change their Profile Image.
-They can browse Manga and Anime, either see a top-rated list or search by a combination of search queries and filters.
-Once they find what they are looking for, they can see more details about the anime/manga and add them to their list.
-Users have an Anime and a Manga list, they can change the status of their entries from watching/reading to finished or planning and track their last watched/read episode/chapter.
-Finally, Users can Post and comment in the forum, through there they can check out other Users' profiles and their Lists
+Users can Create an Account, Log in and change their Profile Image.  
+They can browse Manga and Anime, either see a top-rated list or search by a combination of search queries and filters.  
+Once they find what they are looking for, they can see more details about the anime/manga and add them to their list.  
+Users have an Anime and a Manga list, they can change the status of their entries from watching/reading to finished or planning and track their last watched/read episode/chapter.  
+Finally, Users can Post and comment in the forum, through there they can check out other Users' profiles and their Lists  
 
 
 # Sources
-All Anime and Manga Data is provided via the Jikan API
+All Anime and Manga Data is provided via the Jikan API - https://jikan.moe/   
 Icons as well as the Logo are from Google Fonts Icons - https://fonts.google.com/icons
