@@ -162,7 +162,7 @@ export default function UserPage({params}) {
                                     {mangaList === null ?
 
                                         <ResourceNotExisting
-                                            message={'Nothing to see yet, go and add something :)'}/>
+                                            message={'No Manga added to this list'}/>
 
 
                                         :

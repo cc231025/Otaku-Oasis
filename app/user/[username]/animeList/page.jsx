@@ -178,7 +178,7 @@ export default function UserPage({params}) {
                                     {animeList === null ?
 
                                         <ResourceNotExisting
-                                            message={'Nothing to see yet, go and add something :)'}/>
+                                            message={'No Anime added to this list yet'}/>
 
 
                                         :
