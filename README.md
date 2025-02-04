@@ -1,6 +1,8 @@
 # CCL-2 - Connected World 
 # Otaku Oasis
 
+Live Website: [otaku-oasis.vercel.app/](https://otaku-oasis.vercel.app/)
+
 # Quick Start Guide
 To run the project locally, you will need your own supabase account and set up all the tables and Authorization features.
 
